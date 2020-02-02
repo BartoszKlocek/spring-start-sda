@@ -3,6 +3,7 @@ package com.example.demo;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
 
 @Controller
 public class HomeController {
@@ -11,5 +12,11 @@ public class HomeController {
     @ResponseBody
     public String home(){
         return "sample text";
+    }
+
+    @GetMapping("/czesc")
+    @ResponseBody
+    public String homes(){
+        return "home";
     }
 }
