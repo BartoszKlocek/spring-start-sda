@@ -17,7 +17,10 @@ public class HomeController {
 
     //zwraca zawartosc pliku home.jsp
     @GetMapping("/home")
-    public String homeExampleJspFile(){
+    public String homeExampleJspFile(Model model){
+        model.addAttribute("name","Junior Software Developer");
+
         return "home";
     }
+
 }
