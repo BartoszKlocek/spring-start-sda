@@ -7,8 +7,7 @@
 </head>
 <body>
 <h1>Spring JSP SDAcademy</h1>
-<h2 class="hello-title">Sample Hello! ${name}</h2>
-
+<h2 class="hello-title">Sample Hello!</h2>
 <script src="/js/main.js"></script>
 </body>
 </html>
